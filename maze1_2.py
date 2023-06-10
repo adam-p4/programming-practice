@@ -2,7 +2,9 @@
 You are at position [0, 0] in maze NxN and you can only move in one of the four cardinal directions (i.e. North, East, South, West). 
 Return true if you can reach position [N-1, N-1] or false otherwise.
 
-V2: Check for wall connection like game of hex
+
+Version 2: Instead of finding a path, ckeck if there is a wall blocking all paths
+To do that, check for diagonal wall connections like in a game of hex
 '''
 
 

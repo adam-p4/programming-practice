@@ -1,3 +1,6 @@
+# Given a completed sudoku board, asserts if the board configuration is legal or not.
+
+
 def done_or_not(board): #board[i][j]
     for row in board: # test rows
         if set([i for i in row]) != set(range(1,10)):
@@ -19,7 +22,7 @@ def done_or_not(board): #board[i][j]
 
 
 
-
+# Test
 board =                 [[1, 3, 2, 5, 7, 9, 4, 6, 8]
                         ,[4, 9, 8, 2, 6, 1, 3, 7, 5]
                         ,[7, 5, 6, 3, 8, 4, 2, 1, 9]

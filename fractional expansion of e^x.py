@@ -1,4 +1,4 @@
-# Searches for fractional expansion of e^x with >=digits digits in the numerator (using Taylor Series)
+# Searches for a fractional expansion of e^x with a set amount digits in the numerator (using Taylor Series)
 
 from math import factorial 
 from fractions import Fraction
